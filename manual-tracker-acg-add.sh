@@ -6,7 +6,7 @@ else
     auth=
 fi
 host=${TRANSMISSION_HOST:-localhost}
-list_url=${TRACKER_URL:-/data/source/trackerslist/trackers_all.txt}
+list_url=${TRACKER_URL:-/data/source/trackerslist/trackers_acg.txt}
 
 add_trackers () {
     torrent_hash=$1
